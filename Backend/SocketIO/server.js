@@ -12,7 +12,7 @@ const io = new Server(server, {
   },
 });
 
-// realtime message code goes here
+ // realtime message code goes here
 export const getReceiverSocketId = (receiverId) => {
   return users[receiverId];
 };
